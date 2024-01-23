@@ -30,7 +30,7 @@
 <body>
     <header class="container mx-auto">
         <nav class="mt-5">
-            <div class="navbar bg-base-100 ">
+            <div class="navbar bg-base-100 justify-center items-center">
                 <div class="navbar-start ">
                   <div class="dropdown ">
                     <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
@@ -67,7 +67,7 @@
                   </ul>
                 </div>
                 <div class="navbar-end  flex gap-3">
-                    <i class="fa fa-magnifying-glass text-2xl"></i>
+                    <i class="fa fa-magnifying-glass text-2xl hidden opacity-60 md:block"></i>
                   <a class="btn text-white bg-[#FF4240]  hover:text-[#FF4240] hover:bg-transparent">Get Ticket</a>
                 </div>
               </div>
@@ -303,14 +303,14 @@
             </div>
         </section>
         <!-- * clients question section -->
-        <section class="container mx-auto mt-24">
+        <section class="container mx-auto mt-24 ">
             <!-- clients section title -->
             <div class="text-center border-y-2 border-dashed py-8">
                 <h3 class="text-3xl font-bold">Clients Question</h3>
             <p class="font-semibold opacity-70 mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <!-- clients main thing -->
-            <div class="lg:flex gap-3 mt-12 p-8 mb-6">
+            <div class="lg:flex gap-3 mt-12 p-8 mb-6 border rounded-xl">
                 <div>
                     <img class="w-full" src="Images/11.png" alt="">
                 </div>
@@ -371,6 +371,67 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- * get in touch section start here -->
+        <section class="container mx-auto mt-24">
+          <!-- scetion title -->
+          <div class="text-center border-y-2 border-dashed py-8">
+            <h3 class="text-3xl font-bold">Get In Touch</h3>
+        <p class="font-semibold opacity-70 mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <!-- section content -->
+        <div class="mt-12  flex flex-col lg:flex-row gap-6">
+          <div class="border rounded-xl py-6">
+            <div class="grid grid-cols-1 px-8 pt-6">
+              <div class="bg-[#BCED6D1A] p-8 rounded-xl"> 
+                <img src="Images/call.png" alt="">
+                <h6 class="mt-6 opacity-70">Phone Number : </h6>
+                <h3 class="mt-4 font-extrabold text-lg pb-4">(+62) 123-321-543</h3>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 px-8 pt-6">
+              <div class="bg-[#FDDD5F19] p-8 rounded-xl"> 
+                <img src="Images/massage.png" alt="">
+                <h6 class="mt-6 opacity-70">Email : </h6>
+                <h3 class="mt-4 font-extrabold text-lg pb-4">hockeys@support.com</h3>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 px-8 py-6">
+              <div class="bg-[#629CF31A] p-8 rounded-xl"> 
+                <img src="Images/location.png" alt="">
+                <h6 class="mt-6 opacity-70">Location : </h6>
+                <h3 class="mt-4 font-extrabold text-lg pb-4">152/1 Mohakhali Wireless Gate</h3>
+              </div>
+            </div>
+          </div>
+          <!-- massage section -->
+          <div class="flex-1 grid grid-cols-1 md:grid-rows-5 md:grid-cols-2 gap-6 ">
+            <div class="px-2">
+              <h2 class="font-semibold">Your Name</h2>
+              <input class="w-full rounded-lg p-6 mt-4 bg-[#1313180D] outline-none" placeholder="Enter your full name" type="text">
+            </div>
+            <div class="px-2 ">
+              <h2 class="font-semibold">Your Email</h2>
+              <input class="w-full rounded-lg p-6 mt-4 bg-[#1313180D] outline-none" placeholder="Enter your email" type="text">
+            </div>
+            <div class="px-2 ">
+              <h2 class="font-semibold">Subject</h2>
+              <input class="w-full rounded-lg p-6 mt-4 bg-[#1313180D] outline-none" placeholder="Enter your subject" type="text">
+            </div>
+            <div class="px-2 ">
+              <h2 class="font-semibold">Phone Number</h2>
+              <input class="w-full rounded-lg p-6 mt-4 bg-[#1313180D] outline-none" placeholder="Enter your phone number" type="text">
+            </div>
+            <div class=" px-2 md:col-span-2 md:row-span-4">
+              <h2 class="font-semibold">Message</h2>
+              <textarea class=" bg-[#1313180D] rounded-xl mt-4 h-full w-full p-5 outline-none" placeholder="Write your message" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class=" w-full p-2 mt-6 md:col-span-2">
+              <button class="btn btn-block text-white bg-[#FF4240]">Send Message</button>
+            </div>
+          </div>
+        </div>
+        
         </section>
     </main>
     <footer>
